@@ -1,4 +1,4 @@
-# sqlite-unity-plugin-example
+# com.pixelwizards.sqlite-example
 
 Updated version of the original SQLite sample project from https://github.com/rizasif/sqlite-unity-plugin
 
