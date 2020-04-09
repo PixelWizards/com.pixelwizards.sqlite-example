@@ -7,21 +7,21 @@ public class DbTestBehaviourScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		LocationDb mLocationDb = new LocationDb();
+        LocationDb mLocationDb = new LocationDb();
 
-		//Add Data
-		mLocationDb.addData(new LocationEntity("0", "AR", "0.001", "0.007"));
-		mLocationDb.addData(new LocationEntity("1", "AR", "0.002", "0.006"));
-		mLocationDb.addData(new LocationEntity("2", "AR", "0.003", "0.005"));
-		mLocationDb.addData(new LocationEntity("3", "AR", "0.004", "0.004"));
-		mLocationDb.addData(new LocationEntity("4", "AR", "0.005", "0.003"));
-		mLocationDb.addData(new LocationEntity("5", "AR", "0.006", "0.002"));
-		mLocationDb.addData(new LocationEntity("6", "AR", "0.007", "0.001"));
-		mLocationDb.close();
+        //Add Data
+        mLocationDb.addData(new LocationEntity("0", "AR", "0.001", "0.007"));
+        mLocationDb.addData(new LocationEntity("1", "AR", "0.002", "0.006"));
+        mLocationDb.addData(new LocationEntity("2", "AR", "0.003", "0.005"));
+        mLocationDb.addData(new LocationEntity("3", "AR", "0.004", "0.004"));
+        mLocationDb.addData(new LocationEntity("4", "AR", "0.005", "0.003"));
+        mLocationDb.addData(new LocationEntity("5", "AR", "0.006", "0.002"));
+        mLocationDb.addData(new LocationEntity("6", "AR", "0.007", "0.001"));
+        mLocationDb.close();
 
 
-		//Fetch All Data
-		LocationDb mLocationDb2 = new LocationDb();
+        //Fetch All Data
+        LocationDb mLocationDb2 = new LocationDb();
 		System.Data.IDataReader reader = mLocationDb2.getAllData();
 
 		int fieldCount = reader.FieldCount;
