@@ -1,5 +1,11 @@
 # sqlite-unity-plugin-example
-This project is a practical implementation of the [sqlite-unity-plugin](https://github.com/rizasif/sqlite-unity-plugin).
+
+Updated version of the original SQLite sample project from https://github.com/rizasif/sqlite-unity-plugin
+
+Modified to reference the SQLite package available on OpenUPM:
+
+https://openupm.com/packages/com.pixelwizards.sqlite/
+
 This project can be tested on Windows, Android and iOS devices.
 
 - Check the `DbTestBehaviourScript.cs` file for usage exmaple and run it by attaching to an empty gameobject.
